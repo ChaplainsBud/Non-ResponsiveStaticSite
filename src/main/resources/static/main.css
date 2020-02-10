@@ -24,6 +24,7 @@ nav {
 a {
     text-decoration: none;
     color:#1D0029 ;
+    background-color: white;
 }
 
 a:hover {
@@ -37,15 +38,15 @@ a:hover {
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: space-between;
 }
 
-.supercon {
-    display: flex;
-    justify-content: center;
-}
+/*.supercon {*/
+/*    position: relative;*/
+/*    top: 50%;*/
+/*}*/
 
 
 img {
@@ -59,6 +60,10 @@ img {
     background-color:  #98FB98;
     font-size: 15px;
     text-align: center;
+}
+
+figure {
+    margin-top: 100px;
 }
 
 figcaption {
