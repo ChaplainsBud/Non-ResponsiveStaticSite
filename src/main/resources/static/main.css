@@ -23,6 +23,10 @@ a {
     color:#1D0029 ;
 }
 
+a:hover {
+    color:white;
+}
+
 h1 {
     position: relative;
     bottom: 1em;

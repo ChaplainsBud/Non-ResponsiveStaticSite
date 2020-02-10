@@ -18,4 +18,8 @@ public class HomeController {
     public String curry() {
         return "curry";
     }
+    @RequestMapping("/kebab")
+    public String kebab() {
+        return "kebab";
+    }
 }
