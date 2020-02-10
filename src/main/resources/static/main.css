@@ -1,14 +1,19 @@
+* {
+
+}
+
 body {
     background-image:url("Indian_Spices.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Modak', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     color: orangered;
     background-color: black;
 }
 
 nav {
+    background-color: darkred;
     display: flex;
     justify-content: space-between;
 }
@@ -46,3 +51,11 @@ img {
 /*    background-color: aqua;*/
 /*}*/
 
+#directions {
+    color: white;
+    background-color: lightgreen;
+}
+
+figcaption {
+    background-color: sandybrown;
+}
