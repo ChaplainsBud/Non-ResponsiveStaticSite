@@ -1,15 +1,18 @@
 * {
+  margin:0;
+  padding: 0;
+}
 
+html  {
+    background:url("Indian_Spices.jpg") no-repeat center center fixed;
 }
 
 body {
-    background-image:url("Indian_Spices.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     color: orangered;
-    background-color: #7FFFD4 ;
+    /*background-color: #7FFFD4 ;*/
 }
 
 nav {
@@ -27,33 +30,29 @@ a:hover {
     color:white;
 }
 
-h1 {
-    position: relative;
-    bottom: 1em;
-}
+/*h1 {*/
+/*    position: relative;*/
+/*    bottom: 1em;*/
+/*}*/
 
 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.supercon {
     display: flex;
     justify-content: center;
 }
 
+
 img {
     width: 300px;
     height: 300px;
+    border: 2px solid black;
 }
-
-/*.box {*/
-/*    width: 30%;*/
-/*    height: 10%;*/
-/*}*/
-
-/*.box1 {*/
-/*    background-color: rebeccapurple;*/
-/*}*/
-
-/*.box2 {*/
-/*    background-color: aqua;*/
-/*}*/
 
 #directions {
     color: saddlebrown;
@@ -64,6 +63,7 @@ img {
 
 figcaption {
     background-color:  #C8F7C5;
+    border: 2px solid black;
 }
 
 footer {
@@ -75,4 +75,5 @@ footer {
 .flag {
     width: 20px;
     height: 20px;
+    border: none;
 }
