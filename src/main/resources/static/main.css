@@ -1,0 +1,48 @@
+body {
+    background-image:url("Indian_Spices.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Modak', cursive;
+    font-size: 1.5rem;
+    color: orangered;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+h1 {
+    position: relative;
+    bottom: 1em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*.box {*/
+/*    width: 30%;*/
+/*    height: 10%;*/
+/*}*/
+
+/*.box1 {*/
+/*    background-color: rebeccapurple;*/
+/*}*/
+
+/*.box2 {*/
+/*    background-color: aqua;*/
+/*}*/
+
