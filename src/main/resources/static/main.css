@@ -9,18 +9,18 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
     color: orangered;
-    background-color: black;
+    background-color: #7FFFD4 ;
 }
 
 nav {
-    background-color: darkred;
+    background-color:  #BAF73C;
     display: flex;
     justify-content: space-between;
 }
 
 a {
     text-decoration: none;
-    color: gold;
+    color:#1D0029 ;
 }
 
 h1 {
@@ -34,8 +34,8 @@ h1 {
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 
 /*.box {*/
@@ -52,10 +52,23 @@ img {
 /*}*/
 
 #directions {
-    color: white;
-    background-color: lightgreen;
+    color: saddlebrown;
+    background-color:  #98FB98;
+    font-size: 15px;
+    text-align: center;
 }
 
 figcaption {
-    background-color: sandybrown;
+    background-color:  #C8F7C5;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
 }
