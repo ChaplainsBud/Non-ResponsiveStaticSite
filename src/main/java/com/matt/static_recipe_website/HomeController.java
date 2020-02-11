@@ -14,12 +14,19 @@ public class HomeController {
     public String recipes() {
         return "recipes";
     }
+
     @RequestMapping("/ramja")
     public String curry() {
         return "curry";
     }
+
     @RequestMapping("/kebab")
     public String kebab() {
         return "kebab";
+    }
+
+    @RequestMapping("/author")
+    public String author() {
+        return "author";
     }
 }

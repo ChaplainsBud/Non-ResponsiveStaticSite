@@ -11,25 +11,29 @@ body {
 
     font-family: 'Dancing Script', cursive;
     font-size: 1.5rem;
-    color: orangered;
-    /*background-color: #7FFFD4 ;*/
+    color: darkmagenta;
+    background-color: rgba(255, 255, 255, 0.5) ;
 }
 
-nav {
-    background-color:  #BAF73C;
-    display: flex;
-    justify-content: space-between;
-}
+.translucent {
+    background-color: rgba(255, 255, 255, 0.8) ;
 
-a {
-    text-decoration: none;
-    color:#1D0029 ;
-    background-color: white;
 }
+/*nav {*/
+/*    background-color:  #BAF73C;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
 
-a:hover {
-    color:white;
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*    color:#1D0029 ;*/
+/*    background-color: white;*/
+/*}*/
+
+/*a:hover {*/
+/*    color:white;*/
+/*}*/
 
 /*h1 {*/
 /*    position: relative;*/
@@ -37,6 +41,8 @@ a:hover {
 /*}*/
 
 .container {
+    /*border: 2px solid orange;*/
+    /*margin-top: 50px;*/
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -71,11 +77,15 @@ figcaption {
     border: 2px solid black;
 }
 
-footer {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-}
+/*footer {*/
+/*    position: absolute;*/
+/*    bottom: 0px;*/
+/*    left: 0px;*/
+/*}*/
+/*.flexer {*/
+/*    display: flex;*/
+/*    justif-content: center;*/
+/*}*/
 
 .flag {
     width: 20px;

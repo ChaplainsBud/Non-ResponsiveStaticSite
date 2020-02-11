@@ -3,26 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Kebab Recipe</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
-<body>
-<style>
-    body {
-        background-image: none;
-        background-color: #7FFFD4 ;
-    }
-    footer {
-        position: relative;
-        bottom: 0;
-        left: 0;
-    }
-</style>
-<nav>
-    <a href="http://localhost:8080/">Home</a>
-    <h1>My Recipe Book</h1>
-    <a href="http://localhost:8080/food">Recipes</a>
-</nav>
+<body class="translucent">
+<!--<style>-->
+<!--    body {-->
+<!--        background-image: none;-->
+<!--        background-color: #7FFFD4 ;-->
+<!--    }-->
+<!--    footer {-->
+<!--        position: relative;-->
+<!--        bottom: 0;-->
+<!--        left: 0;-->
+<!--    }-->
+<!--</style>-->
+<!--<nav>-->
+<!--    <a href="http://localhost:8080/">Home</a>-->
+<!--    <h1>My Recipe Book</h1>-->
+<!--    <a href="http://localhost:8080/food">Recipes</a>-->
+<!--</nav>-->
 
 <!--
 Recipe title
@@ -31,6 +33,35 @@ Ingredients
 Directions
 Servings
 -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!--    <a class="navbar-brand" href="#">Navbar</a>-->
+    <h1 class="mx-auto" >Recipe Book</h1>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/food">Recipes</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Specific Dishes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/ramja">Curry</a>
+                    <a class="dropdown-item" href="/kebab">Kebab</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/author">Author</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 <h1>Kebab</h1>
 <strong>Egypt</strong>
 <img class="flag" src="egypt.png" alt="egypt">
@@ -81,6 +112,14 @@ Servings
 <footer>
     <a href="https://www.thespruceeats.com/egyptian-style-chicken-kebabs-334237">Kebab Recipe Origin</a>
 </footer>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
